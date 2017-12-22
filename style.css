@@ -1,0 +1,25 @@
+.font 
+{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 200;
+}
+
+button 
+{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 120%;
+}
+
+h3 
+{
+  font-size: 400%;
+}
+
+
+

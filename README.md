@@ -1,6 +1,7 @@
 # Pomodoro-Timer
 
 This Pomodro Timer (or Pomodoro Clock) can be viewed at https://codepen.io/derbergfex/full/GypPLN/
+
 Information on the Pomodoro Technique can be found at https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 This repository contains the HTML, CSS and JavaScript code files for 'Build a Pomodoro Clock', FreeCodeCamp's second advanced

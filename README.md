@@ -1,4 +1,4 @@
-# Pomodoro-Timer
+# Pomodoro Timer
 
 This Pomodro Timer (or Pomodoro Clock) can be viewed at https://codepen.io/derbergfex/full/GypPLN/
 

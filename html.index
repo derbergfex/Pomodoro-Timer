@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link type = "text/css" href = "style.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src = "script.js"></script>
+    <title>Pomodoro Clock</title>
+    <h1 class = "font text-center"> 
+            Pomodro Clock
+    </h1>
+  </head>
+
+    <body>
+        <div class = "font text-center center-block">
+        <button id ="start">
+                <i class = "fa fa-play" style = "font-size: 400%"></i>
+        </button>
+        <button id = "stop">
+                <i class = "fa fa-pause" style = "font-size: 400%"></i>
+        </button>
+        <button id = "reset">
+                <i class = "fa fa-stop" style="font-size: 400%"></i>
+        </button>
+
+        <h3 id = "workTime">25</h3>
+
+        <div id = "workButtons">
+            <button id = "workUP">
+                <i class = "fa fa-arrow-up" aria-hidden = "true" style = "font-size: 400%"></i>
+            </button> 
+            <button id = "workDOWN">
+                <i class = "fa fa-arrow-down" aria-hidden = "true" style = "font-size: 400%"></i>
+            </button>
+        </div>
+
+        <h3 id = "breakTime">5</h3>
+        
+        <div>
+            <button id = "breakUP">
+                <i class = "fa fa-arrow-up" aria-hidden = "true" style = "font-size: 400%"></i>
+            </button>
+            <button id = "breakDOWN">
+                <i class = "fa fa-arrow-down" aria-hidden = "true" style = "font-size: 400%"></i>
+            </button>
+        </div>
+        </div>
+    </body>
+</html>

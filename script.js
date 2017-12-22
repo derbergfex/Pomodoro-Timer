@@ -15,7 +15,7 @@ $(document).ready(function()
     var workTime = origWorkTime * 60;
     var breakTime =  origBreakTime * 60;
  
-    //Settingq the funcionality of the up and down buttons; restricting the boundary for the work- and break-minutes.
+    //Setting the funcionality of the up and down buttons; restricting the boundary for the work- and break-minutes.
     $("#workUP").on("click", function()
     {
         if (origWorkTime >= 5)

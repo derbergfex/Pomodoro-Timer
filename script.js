@@ -1,21 +1,21 @@
 $(document).ready(function()
 {
-    //Buzzer
+    // Buzzer
     var audio = new Audio('http://soundbible.com/grab.php?id=1251&type=mp3');
     function beep()
     {
         audio.play();
     }
  
-    //Original variables for reference.
+    // Original variables for reference.
     var origWorkTime = eval($("#workTime").text());
     var origBreakTime =  eval($("#breakTime").text());
  
-    //We convert the variables to minutes, to be used in what follows.
+    // We convert the variables to minutes, to be used in what follows.
     var workTime = origWorkTime * 60;
     var breakTime =  origBreakTime * 60;
  
-    //Setting the funcionality of the up and down buttons; restricting the boundary for the work- and break-minutes.
+    // Setting the funcionality of the up and down buttons; restricting the boundary for the work- and break-minutes.
     $("#workUP").on("click", function()
     {
         if (origWorkTime >= 5)
@@ -56,10 +56,10 @@ $(document).ready(function()
         }
     });
 
-    //Begin timers once the start button is clicked.
+    // Begin timers once the start button is clicked.
     $("#start").on("click", function()
     {
-        //Timer setup and functions.
+        // Timer setup and functions.
         var mainTimer = setInterval(function()
         {
             workTimer();
@@ -85,7 +85,7 @@ $(document).ready(function()
             
         }, 1000);
 
-        //Reset and stop buttons.
+        // Reset and stop buttons.
         $('#stop').on("click", function()
         {
             clearInterval(mainTimer);
@@ -102,7 +102,7 @@ $(document).ready(function()
 
     });
 
-    //Functions used in the timers' setup.   
+    // Functions used in the timers' setup.   
     function workTimer ()
     {
 
